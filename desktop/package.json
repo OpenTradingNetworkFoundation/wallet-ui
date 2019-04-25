@@ -1,0 +1,9 @@
+{
+  "name": "otn-wallet-desktop",
+  "version": "0.8.4",
+  "description": "OTN Wallet multiplatform application",
+  "author": "Open Trading Network Foundation",
+  "dependencies": {
+    "electron-is-dev": "^0.3.0"
+  }
+}

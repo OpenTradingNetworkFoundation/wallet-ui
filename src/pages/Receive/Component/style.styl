@@ -1,0 +1,36 @@
++b('receive-content')
+  padding 20px
+  background-color #f9f9fb
+  border-radius 6px
+
+  display flex
+  justify-content space-between
+
+  +e('qr-code')
+    width 100px
+    height 100px
+
+    svg
+      width 100px
+      height 100px
+
+  +e('info')
+    color #171e32
+    display flex
+    flex-direction column
+    margin-right 20px
+
+    +e('title')
+      font-size 14px
+      font-weight $font-medium
+      margin-bottom 4px
+
+    +e('username')
+      font-size 18px
+      font-weight $font-bold
+      margin-bottom 12px
+
+    +e('description')
+      font-size 12px
+      font-weight $font-medium
+      opacity 0.5

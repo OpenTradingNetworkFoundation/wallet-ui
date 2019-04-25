@@ -1,0 +1,120 @@
++b('exchange-form')
+  animation appear .3s linear
+
+  +e('row')
+    display flex
+    margin-bottom 24px
+
+    +e('exchange-button')
+      margin auto
+
+    +e('content')
+      display flex
+      flex-direction column
+      width 100%
+
+      padding 24px 4px 4px
+      box-shadow 0 2px 10px $modal-background-shadow
+      border-radius 8px
+      background-color $white
+
+      +e('price')
+        margin 0 auto 18px
+        color $modal-header
+        font-size 12px
+        font-weight $font-medium
+
+      +e('fee-panel')
+        border-radius 6px
+        background-color #f5f5f5
+        padding 11px 20px 9px
+        justify-content space-evenly
+
+        .fee-panel__percentage
+          width auto
+
+        .fee-panel__details
+          width auto
+          flex none
+
+      +e('warning')
+        grid-template-columns 16px 1fr;
+        padding 16px 0
+        opacity 0.35
+        color #171e32
+        background white
+
+        .warning__text
+          padding-left 8px
+          font-size 12px
+          font-weight 700
+
+        .warning__icon
+          width 16px
+          height 16px
+
+      +e('selectors')
+        display flex
+        justify-content space-between
+        padding-bottom 18px
+
+        +e('exchange-icon-container')
+          background-color $white
+          margin auto 0
+          margin-left -18px
+          padding 0
+          border-color transparent
+          &:focus
+            outline none
+
+          width 36px
+          height 40px
+
+
+          +e('exchange-icon')
+            width 100%
+            height 100%
+
+            padding 11px 9px
+            border 1px solid transparent
+
+
+            &:hover
+              cursor pointer
+              border 1px solid $button-light-border
+              border-radius 6px
+              transition border-color .24s ease
+
+            +m('disabled')
+              opacity 0.5
+
+              &.exchange-form__exchange-icon
+                &:hover
+                  border-color transparent
+                  cursor not-allowed
+
+        +e('selector')
+          width 50%
+          padding 0 28px 0 20px
+
+          +m('right')
+            padding 0 28px
+            padding-left 12px
+
+          +m('with-border')
+            border-right 1px solid #dddde2
+
+          +e('amount')
+            display flex
+            color #171e32
+            margin 16px 0
+            opacity 0.35
+            font-size 12px
+            font-weight $font-bold
+
+            +e('amount-icon')
+              width 16px
+              height 14px
+              margin-right 9px
+              fill currentColor
+              stroke currentColor

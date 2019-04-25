@@ -1,0 +1,102 @@
++b('input')
+  position relative
+  display flex
+  flex-direction column
+
+  +m('disabled')
+    cursor not-allowed
+
+  +e('error-label')
+    align-self flex-start
+    color $red-error
+    opacity 1
+    word-wrap break-word
+    margin-top 8px
+
+  +e('textbox-wrapper')
+    position relative
+    width 100%
+    align-self center
+
+  +e('icon')
+    position absolute
+    left 16px
+    right 0
+    top 50%
+    transform translateY(-50%)
+    bottom 0
+    width 14px
+    height 13px
+
+    +m('dark')
+      fill rgba(255,255,255,.25)
+    +m('white')
+      fill #898d97
+
+    +m('error')
+      fill $red-error
+
+  +e('textbox')
+    width 100%
+    border-radius: 6px
+    padding 11px 18px
+
+    font-size: $font-size-middle
+    font-family: $font-sf
+    font-weight: $font-medium
+
+    caret-color $blue
+
+    outline: none
+
+    +m('has-icon')
+      padding-left 38px
+
+    +m('dark')
+      color: $white
+      border: 1px solid $fiord
+
+      background-color $background-dark
+      &:focus
+        background-color $gray
+        &::placeholder
+          color $gray-heavy
+
+      &.input__textbox--error
+        &:focus
+          border-color transparent
+
+    +m('white')
+      color #171e32
+      font-size 14px
+      font-weight $font-medium
+      background-color #fcfcfc
+      border-width 1px 
+      border-style solid
+      border-color #dbdbdb
+
+      &:hover,
+      &:focus 
+        border-color #318af0
+
+      &::placeholder
+        opacity 0.5
+      
+    +m('is-active')
+      border-color #318af0
+
+    +m('error')
+      color $red-error
+      border-color $red-error
+
+      &:hover
+        border-color $red-error
+
+      &:focus
+        border-color $red-error
+
+    +m('secured')
+      caret-color: $white
+
+    +m('disabled')
+      cursor not-allowed

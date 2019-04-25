@@ -1,0 +1,92 @@
++b('error-gateway')
+  position relative
+  max-width 470px
+  min-width 470px
+  height 380px
+  text-align center
+  margin 95px auto
+
+  +e('content')
+    position relative
+    padding-top 75px
+    z-index 1
+
+    +e('status')
+      font-size 60px
+      line-height 70px
+      color #313747
+      margin 6px 0 0
+      animation appear 0.3s linear
+
+    +e('header')
+      font-size 20px
+      line-height 24px
+      font-weight 700
+      max-width 240px
+      margin 0 auto
+      color rgba(#313747, 0.5)
+      margin-bottom 10px
+      animation appear 0.3s linear
+      animation-timing-function cubic-bezier(0.25, 1, 0.25, 1)
+    
+    +e('description')
+      color rgba(#313747, 0.5)
+      font-size 14px
+      letter-spacing -0.11px
+      font-weight 500
+      margin 0
+      max-width 235px
+      margin 10px auto 0
+      animation appear 0.3s linear
+      animation-timing-function cubic-bezier(0.25, 1, 0.25, 1)
+      
+    +e('spinner')
+      margin 0
+      animation fullZoom 0.3s 1
+      animation-timing-function cubic-bezier(0, 1, 0.25, 1)
+      
+    +e('spinner-content')
+      width 74px
+      height 75px
+      margin 0 auto
+      position relative 
+      animation tilt 2s infinite
+      animation-timing-function cubic-bezier(0.42, 0, 0.58, 1)
+      transform-origin center left
+
+    +e('death-star')
+      width 74px 
+      height 75px
+      position absolute
+      top 0
+      left 0
+      z-index 2
+
+    +e('glowing')
+      width 74px 
+      height 75px
+      position absolute
+      top 0
+      left 0
+      z-index 1
+      animation appear 1s infinite
+      animation-timing-function cubic-bezier(0.42, 0, 0.58, 1)
+      animation-direction alternate
+
+  +e('button')
+    margin-top 30px
+    min-width 135px
+
+  +e('background')
+    position absolute
+    top 0
+    bottom 0
+    left 0
+    right 0
+    animation zoomIn 0.7s 1
+
+    svg 
+      width 100%
+      height 100%
+    
+    

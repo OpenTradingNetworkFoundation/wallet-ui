@@ -1,0 +1,43 @@
++b('sign-up-form')
+  display grid
+  grid-template-columns repeat(3, 1fr)
+  grid-template-rows repeat(3, 1fr)
+  grid-template-areas ". . ." ". container ." ". . ."
+
+  height 100vh
+
+  .sign-up-form-container
+    grid-area container
+    justify-content center
+    text-align center
+
+  +e('input-block')
+    display flex
+    flex-direction column
+    align-items center
+    margin-top 32px
+
+    +e('input-label')
+      margin-top 8px
+
+    +e('input-wrapper')
+      display flex
+      position relative
+      flex-direction column
+      justify-self center
+      max-width 270px
+
+      +e('input')
+        .input__textbox
+          min-width 270px
+          padding-right 38px
+
+        .input__error-label
+          align-self center
+
+  +e('footer')
+    margin-top 20px
+
+    +e('login-url')
+      display block
+      margin-top 24px

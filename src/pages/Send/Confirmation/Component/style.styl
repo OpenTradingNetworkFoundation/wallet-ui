@@ -1,0 +1,57 @@
++b('send-confirmation')
+
+  +e('row')
+    +m('title')
+      border-bottom solid 1px #f2f2f4
+      padding-bottom 24px
+
+    +m('info')
+      padding-top 18px
+      display flex
+
+  +e('col')
+    color #171e32
+    flex-grow 1
+
+  +e('asset-title')
+    confirm-header()
+    display block
+
+  +e('asset-name')
+    display flex
+
+  +e('asset-display-name')
+    font-size 18px
+    font-weight $font-bold
+    text-transform uppercase
+
+  +e('asset-full-name')
+    display flex
+    margin-left 10px
+
+    +e('text')
+      font-size 14px
+      opacity 0.5
+      font-weight $font-medium
+      margin-top 2px
+
+    +e('icon')
+      width 18px
+      height 18px
+      margin-right 8px
+
+  +e('header')
+    confirm-header()
+
+  +e('value')
+    confirm-value()
+
+    +m('fee')
+      text-transform uppercase
+
+    +m('memo')
+      opacity 0.5
+      line-height 18px
+      font-weight $font-medium
+      word-break break-word
+

@@ -1,0 +1,37 @@
+{
+  "appId": "org.otn.wallet",
+  "artifactName": "${productName}.${ext}",
+  "copyright": "© 2018 OTN. All rights reserved",
+  "productName": "OTN Wallet",
+  "asar": true,
+  "directories": {
+    "buildResources": "dist/assets",
+    "output": "build/",
+    "app": "desktop"
+  },
+  "files": [
+    "**/*"
+  ],
+  "extraResources": [
+    "dist/"
+  ],
+  "dmg": {
+    "contents": [
+      {
+        "type": "link",
+        "path": "/Applications",
+        "x": 410,
+        "y": 150
+      },
+      {
+        "type": "file",
+        "x": 130,
+        "y": 150
+      }
+    ]
+  },
+  "mac": {
+    "target": "dmg",
+    "category": "public.app-category.finance"
+  }
+}

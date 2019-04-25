@@ -1,0 +1,45 @@
+.group-wWM3zP_M- {
+    background-color: #313753;
+}
+
+.value-DWZXOdoK- {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.pane-legend, .star-uhAI7sV4- {
+    display: none;
+}
+
+.button-13wlLwhJ-, .item-2xPVYue0-, .menuWrap-23ejLU7n- {
+    background-color: #404760;
+    color: #ffffff80;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.button-13wlLwhJ-.isOpened-1939ai3F- {
+    background-color: #404760;
+    box-shadow: 8px 12px 13px rgba(37, 41, 61, 0.31);
+    border-radius: 2px;
+}
+
+.item-2xPVYue0-.hovered-1uf45E05-, .item-2xPVYue0-.isActive-2j-GhQs_-, .item-2xPVYue0-.isActive-2j-GhQs_-:hover {
+    background-color: #303549;
+    cursor: pointer;
+}
+
+.feature-no-touch .item-2xPVYue0-.isActive-2j-GhQs_-:active, .feature-no-touch .item-2xPVYue0-.isActive-2j-GhQs_-:hover, .feature-touch .item-2xPVYue0-.isActive-2j-GhQs_-:active, .item-2xPVYue0-.isActive-2j-GhQs_- {
+    background-color: #303549;
+    color: #ffffff;
+}
+
+.feature-no-touch .item-2xPVYue0-:active, .feature-no-touch .item-2xPVYue0-:hover, .feature-touch .item-2xPVYue0-:active, .item-2xPVYue0-.hovered-1uf45E05- {
+    background-color: #303549;
+    color: #ffffff;
+}
+
+.chart-container.active {
+    border: none;
+}

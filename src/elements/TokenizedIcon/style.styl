@@ -1,0 +1,24 @@
++b('tokenized-icon')
+  position relative
+  display inline-block
+  vertical-align middle
+
+  +e('main-icon')
+    width 100% // 46px
+    height 100% // 46px
+
+  +e('otn-icon')
+    position absolute
+    top 0
+    left calc(50% + 5px)
+    width 47.8% // 22px/46px
+    height 47.8% // 22px/46px
+    padding 3px
+
+    background #fff
+    border-radius 50%
+    color $brand-primary
+
+    +e('svg')
+      width 100%
+      height 100%

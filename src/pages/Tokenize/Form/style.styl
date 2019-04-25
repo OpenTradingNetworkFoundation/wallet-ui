@@ -1,0 +1,62 @@
++b('tokenize')
+
+  +e('row')
+    position relative
+    display flex
+    justify-content space-between
+
+  +e('label-wrapper')
+    display flex
+    margin-right 12px
+    margin-top 12px
+    width 180px
+
+    +e('label')
+      font-size 14px
+      font-weight $font-medium
+
+  +e('field')
+    flex-grow 1
+    flex-shrink 0
+
+  +e('address-wrapper')
+    margin 14px -10px 0
+    padding 10px
+    border-radius 6px
+    background-color $background-white
+
+  +e('info')
+    display flex
+    justify-content space-between
+
+  +e('address-content')
+    display flex
+    flex-direction row
+    flex 1
+
+    +e('address-text')
+      flex 1
+      min-height 100px
+
+      +e('address-label')
+        font-size 14px
+        font-weight 500
+        line-height 18px
+        margin-top 10px
+
+      +e('address-value')
+        font-weight 700
+        margin-top 10px
+
+      +e('address-copy')
+        margin-top 4
+
+    +e('address-code')
+      flex 0 0 100px
+      height 100px
+
+  +e('warning')
+    margin 14px -10px 0
+
+  +e('general-warning')
+    display block

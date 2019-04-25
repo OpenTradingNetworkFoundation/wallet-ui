@@ -1,0 +1,69 @@
++b('operation-details')
+  border-top solid 1px #d1deec
+  padding-top 15px
+  padding-bottom 24px
+
+  display flex
+  justify-content space-between
+  flex-direction row
+
+  +e('copy-icon')
+    margin-left 4px
+
+  +e('fee')
+    font-size 12px
+
+  +e('confirmations')
+    color #32ab51
+
+    display flex
+    flex-wrap wrap
+    max-width 95px
+
+    +m('done')
+      color #32ab51
+
+    +m('pending')
+      color #318af0
+
+    +m('failed')
+      color #e75a5a
+
+    +e('line')
+      height 4px
+      border-radius 4px
+      margin-bottom 8px
+
+      +m('done')
+        background-color #32ab51
+
+      +m('pending')
+        background-color #318af0
+
+      +m('failed')
+        background-color #e75a5a
+
+    +e('confirmation-count')
+      border 1px solid rgba(#31ab51, .4)
+      border-radius 4px
+      padding 4px 10px
+      font-weight $font-bold
+
+      +m('failed')
+        display none
+
+      +m('done')
+        color #32ab51
+        border-color #32ab51
+
+      +m('pending')
+        color #318af0
+        border-color #318af0
+
+    +e('confirmation-status')
+      display inline-block
+      font-weight $font-medium
+      font-size 14px
+
+      padding-bottom 4px
+      padding-right 4px

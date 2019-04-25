@@ -1,0 +1,97 @@
+body {
+    background-color: #2b3048;
+    font-family: -apple-system,BlinkMacSystemFont, Open Sans;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    text-align: center;
+}
+
+.container:before {
+    vertical-align: middle;
+    height: 100%;
+    display: inline-block;
+    content: '';
+}
+
+.content {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    position: relative;
+}
+
+.background {
+    height: 544px;
+    width: 544px;
+}
+
+.info {
+    position: absolute;
+    top: 140px;
+    left: 16px;
+}
+
+.info .description {
+    color: #ffffff;
+    text-align: center;
+}
+
+.info .description h2 {
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.info .description .text {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.browsers {
+    white-space: nowrap;
+}
+
+.browser {
+    display: inline-block;
+    text-align: center;
+    width: 118px;
+    padding: 24px 13px;
+    background-color: #40455b;
+    border-radius: 8px;
+    margin-top: 38px;
+    margin-right: 34px;
+    text-decoration: none;
+}
+
+.browser:focus {
+    outline: none;
+}
+
+.browser:hover {
+    background-color: #55586c;
+}
+
+.browser.browser--latest {
+    margin-right: 0;
+}
+
+.browser .browser__title {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.browser .browser__icon {
+    margin: 0 auto 14px;
+    display: block;
+}

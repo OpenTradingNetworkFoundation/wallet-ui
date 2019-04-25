@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="119px" height="106px" viewBox="0 0 119 106" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Wallet</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Wallet-error" transform="translate(-605.000000, -290.000000)" fill-rule="nonzero">
+            <g id="Group" transform="translate(225.000000, 95.000000)">
+                <g id="Window">
+                    <g id="Group-2" transform="translate(299.000000, 196.000000)">
+                        <g id="Wallet" transform="translate(82.000000, 0.000000)">
+                            <path d="M73.5,12.5 L65.5,22.5" id="Line-4" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M53.5,0.5 L53.5,12.5" id="Line-3" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <g id="Group-8" transform="translate(0.000000, 32.000000)" stroke="#FFFFFF" stroke-width="3">
+                                <polyline id="Path-6" fill="#2B3049" stroke-linecap="round" stroke-linejoin="round" points="48.7954949 53.0534063 45.7010393 59.0937798 91.6297493 71.3104483 94.0667579 63.9999539"></polyline>
+                                <path d="M89.1885077,28.9107018 C84.0002598,28.9107018 79.7943539,33.1166077 79.7943539,38.3048555 C79.7943539,43.4931034 84.0002598,47.6990093 89.1885077,47.6990093 L111.578686,47.6990093 C112.407113,47.6990093 113.078686,47.0274364 113.078686,46.1990093 L113.078686,30.4107018 C113.078686,29.5822747 112.407113,28.9107018 111.578686,28.9107018 L89.1885077,28.9107018 Z" id="Rectangle-2-Copy" fill="#2B3049" transform="translate(96.436520, 38.304856) rotate(-345.000000) translate(-96.436520, -38.304856) "></path>
+                                <polygon id="Path-4" fill="#2B3049" stroke-linecap="round" stroke-linejoin="round" transform="translate(79.334160, 33.105779) rotate(11.000000) translate(-79.334160, -33.105779) " points="91.2294358 4.73015605 105.373491 10.9941738 99.5882112 61.4814024 53.2948278 58.4855687 75.6847097 42.6479224 69.0852561 31.7829603 80.0113059 19.9837561"></polygon>
+                                <polygon id="Path-4" fill="#2B3049" stroke-linecap="round" stroke-linejoin="round" points="72.7159146 2.12957654 104.272976 6.43558886 91.5514815 55.0712842 48.8200362 52.9929776 70.7757191 37.363846 64.1762655 26.4988839 75.1023152 14.6996797"></polygon>
+                                <path d="M0.776126168,10.4374777 L16.498649,69.5551631 L31.0802897,64.5744211 L28.1906099,57.2644472 C35.6976705,40.768012 39.4512007,32.5197944 39.4512007,32.5197944 C32.029637,28.6230293 28.3188551,26.6746468 28.3188551,26.6746468 L31.8256106,11.136164 L23.3897442,1.91833532 L0.776126168,10.4374777 Z" id="Path-5" fill="#2B3049" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M14.5727833,62.1965431 L28.2931535,57.3011923" id="Line" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M114.985767,40.6126363 L114.985767,23.3243288 C114.985767,22.4959017 114.314194,21.8243288 113.485767,21.8243288 L91.0955889,21.8243288 C85.9073411,21.8243288 81.7014352,26.0302347 81.7014352,31.2184826 C81.7014352,36.4067304 85.9073411,40.6126363 91.0955889,40.6126363 L114.985767,40.6126363 Z" id="Rectangle-2" fill="#2B3049" transform="translate(98.343601, 31.218483) rotate(-345.000000) translate(-98.343601, -31.218483) "></path>
+                            </g>
+                            <path d="M32.5,12.5 L40.5,24.5" id="Line-2" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <circle id="Oval" fill="#FFFFFF" cx="90.5" cy="60.5" r="2.5"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

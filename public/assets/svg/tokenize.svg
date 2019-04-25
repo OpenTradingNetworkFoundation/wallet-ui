@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <path id="v3kza" d="M526.6 226.4v-18.8h18.8v18.8zm16.43-5.57l-3.5-3.5-.61 1.7 3.17 3.17zm.56-1.27a8 8 0 1 0-5.04 5.02l-5.06-5.06a3.54 3.54 0 0 1 0-5.02 3.54 3.54 0 0 1 5.02 0l.1.1zm-3.78 4.48l1.36-.94-3.15-3.16-1.7.6z"/>
+        <path id="v3kzb" d="M543.03 220.83l-3.5-3.5-.61 1.7 3.17 3.17zm.56-1.27a8 8 0 1 0-5.04 5.02l-5.06-5.06a3.54 3.54 0 0 1 0-5.02 3.54 3.54 0 0 1 5.02 0l.1.1zm-3.78 4.48l1.36-.94-3.15-3.16-1.7.6z"/>
+        <clipPath id="v3kzc">
+            <use fill="#fff" xlink:href="#v3kza"/>
+        </clipPath>
+    </defs>
+    <use fill="#fff" fill-opacity="0" stroke="currentColor" stroke-miterlimit="50" stroke-width="2.8" clip-path="url(#v3kzc)" xlink:href="#v3kzb" transform="translate(-526 -207)"/>
+</svg>

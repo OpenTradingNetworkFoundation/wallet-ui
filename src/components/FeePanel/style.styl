@@ -1,0 +1,33 @@
++b('fee-panel')
+  display flex
+  flex-direction row
+  justify-content space-between
+
+  +e('spinner')
+    .spinner__icon
+      height 12px
+      width 10px
+
+  +e('details')
+    display flex
+    position relative
+    flex 1
+
+    +e('fee')
+      display flex
+      white-space nowrap
+
+      +e('icon')
+        width 16px
+        height 16px
+
+      +e('fee-value')
+        color #171e32
+        font-size 14px
+        font-weight $font-bold
+        text-transform uppercase
+        margin-left 8px
+
+    +e('selector')
+      min-width 205px
+      margin auto 0 auto auto

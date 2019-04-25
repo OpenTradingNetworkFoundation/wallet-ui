@@ -1,0 +1,70 @@
++b('asset-dropdown')
+  cursor pointer
+  border-radius 6px
+  height 40px
+  line-height 40px
+  box-sizing content-box
+
+  border 1px solid rgba(88, 88, 88, 0.2)
+  &:hover
+    border 1px solid $input-border-color
+    
+  &.is-focused
+    border 1px solid $input-border-color
+
+  .Select-control
+    max-height 45px
+
+  .Select-menu-outer
+    box-shadow 0 2px 10px rgba(38, 42, 78, 0.1)
+    border-radius 6px
+    background-color $white
+
+    position absolute
+    z-index 10
+    right -1px
+    left -1px
+    top 45px
+
+  +e('item')
+    font-size 14px
+    font-weight $font-medium
+    padding 0 18px
+    border-radius 6px
+
+    display flex
+    flex-direction row
+
+    &:hover
+      background-color rgba(48, 138, 240, 0.1)
+      
+    +m('pinned')
+      &:hover, &:active, &:focus
+        background-color $white
+        outline none
+
+    +e('display-name')
+      color rgba(23, 30, 50, 0.5)
+
+      +m('selected')
+        color #171e32
+
+    +e('name')
+      margin-left auto
+      text-transform uppercase
+      color rgba(23, 30, 50, 0.5)
+
+      +m('selected')
+        color #171e32
+
+    +e('icon')
+      width 16px
+      height 16px
+      margin-left 8px
+      margin-bottom 2px
+
+      align-self center
+      opacity 0.5
+
+      +m('selected')
+        opacity 1

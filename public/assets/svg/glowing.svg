@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="76px" height="76px" viewBox="0 0 76 76" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Oval-3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="41.0452163%" x2="47.7341184%" y2="48.0851771%" id="linearGradient-1">
+            <stop stop-color="#FBD249" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#F52323" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Oval-2" transform="translate(-15.000000, -15.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <circle id="Oval-3" cx="53" cy="53" r="38"></circle>
+        </g>
+    </g>
+</svg>

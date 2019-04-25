@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="55" height="68" viewBox="0 0 55 68">
+    <defs>
+        <path id="vfsob" d="M772.8 260.73v-9.06a12.28 12.28 0 0 1 24.53 0v9.06zm16 22.4a3.2 3.2 0 1 1-6.4 0v-8.53a3.2 3.2 0 1 1 6.4 0zm18.13-22.4h-3.2v-9.06c0-10.3-8.37-18.67-18.66-18.67a18.69 18.69 0 0 0-18.67 18.67v9.06h-2.13A4.27 4.27 0 0 0 760 265v27.73a4.27 4.27 0 0 0 4.27 4.27h42.66a4.27 4.27 0 0 0 4.27-4.27V265a4.27 4.27 0 0 0-4.27-4.27z"/>
+    </defs>
+    <use fill="#fff" fill-opacity="0" stroke="currentColor" stroke-miterlimit="50" stroke-width="2.4" xlink:href="#vfsob" transform="translate(-758 -231)"/>
+</svg>

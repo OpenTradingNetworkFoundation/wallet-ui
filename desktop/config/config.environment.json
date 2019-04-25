@@ -1,0 +1,18 @@
+{
+  "nodes": [{
+    "url": "wss://NODE_URL/ws"
+  }],
+  "network": {
+    "core_asset": "OTN",
+    "address_prefix": "OTN",
+    "chain_id": "CHAIN_ID"
+  },
+  "api": {
+    "gateway": "https://GATEWAY_URL/api/v1",
+    "faucet": "https://FAUCET_URL/api/v1"
+  },
+  "app": {
+    "env": "ENVIRONMENT",
+    "feedbackUrl": "FEEDBACK_FORM"
+  }
+}

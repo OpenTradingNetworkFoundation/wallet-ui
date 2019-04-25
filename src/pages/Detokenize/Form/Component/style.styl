@@ -1,0 +1,90 @@
++b('detokenize-form')
+  +e('content')
+    border-bottom 1px solid #f2f2f4
+    padding 0
+
+    +e('label')
+      color $modal-header
+      font-size 14px
+      font-weight $font-medium
+      margin auto 0
+      flex 0 0 180px
+
+    +e('asset')
+      display flex
+
+      +e('asset-selector')
+        flex 1
+
+    +e('max-amount')
+      display flex
+      flex 1
+      padding-left 180px
+      margin 16px 0 0 auto
+
+      font-size 12px
+      font-weight $font-bold
+      color rgba(23, 30, 50, 0.5)
+      opacity 0.5
+
+      +e('max-amount-icon')
+        width 17px
+        height 14px
+        margin-right 9px
+
+    +e('amount')
+      display flex
+      margin 14px 0 25px
+
+      +e('amount-input')
+        flex 1
+
+    +e('fee-panel')
+      margin-bottom 29px
+
+      .fee-percentage
+        flex 0 0 180px
+
+      .fee-panel__selector
+        position absolute
+        right 0
+
+    +e('testnet-warning')
+      margin-top 8px
+        
+    +e('warning')
+      grid-template-columns 16px 1fr;
+      padding 20px 0
+      opacity 0.5
+      color #171e32
+      background white
+
+      .warning__text 
+        padding-left 8px
+        font-size 14px
+
+      .warning__icon
+        width 16px
+        height 16px
+
+    +e('address')
+      padding 20px 20px 20px 18px
+      border-radius 6px
+      background-color $background-white
+
+      +e('address-label')
+        display block
+        margin-bottom 8px
+        font-size 12px
+        font-weight $font-bold
+        color $modal-header
+        text-transform uppercase
+
+      +e('address-input')
+        color red
+
+  +e('footer')
+    margin-top 21px
+    display flex
+    justify-content flex-end
+  

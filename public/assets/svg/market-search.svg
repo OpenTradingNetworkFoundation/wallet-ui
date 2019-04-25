@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="51px" height="58px" viewBox="0 0 51 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 37</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M21.0910952,43 C32.6387645,43 42,33.3741221 42,21.5 C42,9.62587788 32.6387645,0 21.0910952,0 C9.54342594,0 0.182190394,9.62587788 0.182190394,21.5 C0.182190394,33.3741221 9.54342594,43 21.0910952,43 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-6" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="23.2-Search-assets" transform="translate(-813.000000, -388.000000)">
+            <g id="Group-39" transform="translate(754.000000, 390.000000)">
+                <g id="Group-37" transform="translate(61.000000, 0.000000)">
+                    <g id="Line-3">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <path stroke="#9597A4" stroke-width="2" d="M21.0910952,44 C8.98480609,44 -0.817809606,33.9202641 -0.817809606,21.5 C-0.817809606,9.07973585 8.98480609,-1 21.0910952,-1 C33.1973843,-1 43,9.07973585 43,21.5 C43,33.9202641 33.1973843,44 21.0910952,44 Z"></path>
+                        <path d="M7.5,4.5 L15.5,4.5" stroke="#9597A4" stroke-width="2" stroke-linecap="square" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                        <path d="M14.5,0.5 L22.5,0.5" stroke="#9597A4" stroke-width="2" stroke-linecap="square" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                        <path d="M3.5,9.5 L11.5,9.5" stroke="#9597A4" stroke-width="2" stroke-linecap="square" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                        <path d="M0.5,14.5 L8.5,14.5" stroke="#9597A4" stroke-width="2" stroke-linecap="square" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                        <path d="M0.5,20.5 L8.5,20.5" stroke="#9597A4" stroke-width="2" stroke-linecap="square" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                        <path d="M0.5,26.5 L8.5,26.5" stroke="#9597A4" stroke-width="2" stroke-linecap="square" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                        <path d="M0.5,32.5 L8.5,32.5" stroke="#9597A4" stroke-width="2" stroke-linecap="square" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                        <path d="M3.5,37.5 L11.5,37.5" stroke="#9597A4" stroke-width="2" stroke-linecap="square" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                        <path d="M9.5,41.5 L17.5,41.5" stroke="#9597A4" stroke-width="2" stroke-linecap="square" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                    </g>
+                    <path d="M24.7459645,44 C12.9938968,44 3.49192895,33.913501 3.49192895,21.5 C3.49192895,9.08649898 12.9938968,-1 24.7459645,-1 C36.4980322,-1 46,9.08649898 46,21.5 C46,33.913501 36.4980322,44 24.7459645,44 Z" id="Oval-3" stroke="#9597A4" stroke-width="2" fill="#303652" fill-rule="nonzero"></path>
+                    <path d="M24.7459645,37.5 C33.0704258,37.5 39.8187351,30.336556 39.8187351,21.5 C39.8187351,12.663444 33.0704258,5.5 24.7459645,5.5 C16.4215031,5.5 9.67319385,12.663444 9.67319385,21.5 C9.67319385,30.336556 16.4215031,37.5 24.7459645,37.5 Z" id="Oval-3" stroke="#9597A4" stroke-width="2" stroke-linecap="round" stroke-dasharray="5" fill-rule="nonzero"></path>
+                    <g id="Group-35" transform="translate(20.000000, 22.000000)" fill-rule="nonzero" stroke="#9597A4" stroke-width="2">
+                        <circle id="Oval-2" fill="#303652" cx="12.5" cy="12.5" r="12.5"></circle>
+                        <path d="M6.91437883,12.7744115 L17.9143788,12.7744115" id="Line-4" stroke-linecap="round"></path>
+                        <path d="M20.2916667,23.28125 L26.7083333,31.71875" id="Line-2" stroke-linecap="square"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

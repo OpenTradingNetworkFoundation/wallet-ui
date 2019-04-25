@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="14" viewBox="0 0 12 14">
+    <defs>
+        <path id="k7jwa" d="M568.2 449v6.07c0 .51-.42.93-.93.93h-9.34a.93.93 0 0 1-.93-.93V449c0-.52.42-.93.93-.93h.47v-1.99a4.09 4.09 0 0 1 8.17 0v1.99h.7c.51 0 .93.41.93.93zm-4.9 2.1a.7.7 0 1 0-1.4 0v1.87a.7.7 0 1 0 1.4 0zm1.87-3.03v-1.99a2.69 2.69 0 0 0-5.37 0v1.99z"/>
+    </defs>
+    <use xlink:href="#k7jwa" transform="translate(-557 -442)"/>
+</svg>

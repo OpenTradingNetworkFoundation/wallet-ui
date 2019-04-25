@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>eos_original</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="49.6428571%" y1="99.7857143%" x2="49.6428571%" y2="-0.214285714%" id="linearGradient-1">
+            <stop stop-color="#000000" offset="0%"></stop>
+            <stop stop-color="#40352D" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="eos_original">
+            <g id="1">
+                <circle id="Oval-1" fill="url(#linearGradient-1)" fill-rule="nonzero" cx="28" cy="28" r="28"></circle>
+                <g id="Group" transform="translate(14.000000, 7.000000)" stroke="#FFFFFF" stroke-linejoin="round" stroke-width="1.5">
+                    <g id="Group-21">
+                        <polyline id="Path-41" stroke-linecap="round" points="13.9162332 0.150010806 13.9162332 9.63970828 0 33.5357143 27.9461538 33.5357143 13.9162332 9.63970828"></polyline>
+                        <polygon id="Path-42" stroke-linecap="round" points="4.85748032 12.9670308 13.9213027 0.0655285577 23.0790812 12.9670308 27.9461538 33.5357143 13.9730769 41.999073 0 33.5357143"></polygon>
+                        <polyline id="Path-43" points="4.8300074 12.8920547 13.9753429 41.9987705 23.1206784 12.8920547"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

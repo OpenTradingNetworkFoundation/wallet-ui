@@ -1,0 +1,39 @@
++b('input-user-avatar')
+  position relative
+
+  +e('image-wrapper')
+    width 24px
+    height 24px
+    position absolute
+
+    border-radius 50%
+    background-color $background-dark
+
+    right 8px
+    top 8px
+    bottom 0
+    margin 0
+
+    +m('empty')
+      background-color rgba(219, 219, 219, 0.5)
+
+  +e('loader')
+    display flex
+    position absolute
+    border-radius 12px
+    width 24px
+    height 24px
+    background-color #171E32
+
+    right 8px
+    top 8px
+    bottom 0
+    margin 0
+
+    +e('spinner')
+      color $white
+      margin 2px auto 0 auto
+
+      .spinner__icon
+        width 12px
+        height 14px

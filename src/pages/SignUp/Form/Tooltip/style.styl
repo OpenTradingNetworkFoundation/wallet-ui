@@ -1,0 +1,35 @@
++b('name-rules-tooltip')
+  color $white
+  position absolute
+  right 16px
+  top 14px
+
+  +e('content')
+    max-width 360px
+    font-size 14px
+
+  +e('title')
+    color $white
+    opacity 0.5
+
+  +e('icon')
+    width 16px
+    height 16px
+
+    fill currentColor
+    opacity 0.5
+
+  +e('list')
+    list-style-type none
+    margin-top 8px
+
+    +e('rule')
+      display flex
+      color $white
+      opacity 0.5
+      &:not(:last-child)
+        margin-bottom 4px
+
+      &:before
+        content '-'
+        padding-right 8px

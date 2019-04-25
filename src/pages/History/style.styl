@@ -1,0 +1,59 @@
++b('history-page')
+  +e('header')
+    main-header()
+  +e('content')
+    tile()
+  +e('arrow')
+    width 8px 
+    height 8px
+    fill #a1abc1
+
+  +e('filters')
+    margin-bottom 20px
+
+    +e('filter')
+      background-color rgba(89, 89, 89, 0.02);
+      cursor pointer
+      font-weight 500
+      min-width 168px
+      border-radius 6px
+      border 1px solid rgba(89, 89, 89, 0.2)
+      display inline-block
+      
+      font-size 14px
+      color rgba(#171e32, 0.5)
+
+      &:hover
+        border 1px solid $input-border-color
+
+    .Select-value
+      padding 12px 16px
+      color #171e32
+      
+      &-label
+        display flex
+        flex-direction row
+        justify-content space-between
+        align-items center
+
+    .Select-menu-outer 
+      box-shadow 0 2px 10px rgba(38, 42, 78, 0.1)
+      border-radius 6px
+      background-color $white
+      position absolute
+      z-index 10
+      right 0
+      left 0
+      top calc(100% + 4px)
+
+      
+
+    .Select-option
+      padding 8px
+      border-radius 6px
+
+      &.is-selected 
+        color #171e32
+
+      &:hover 
+        background-color rgba(49, 138, 240, 0.1);

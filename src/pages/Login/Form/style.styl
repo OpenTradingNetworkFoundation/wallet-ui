@@ -1,0 +1,39 @@
++b('login-form')
+  display grid
+  grid-template-columns repeat(3, 1fr)
+  grid-template-rows repeat(3, 1fr)
+  grid-template-areas ". . ." ". login-form-container ." ". . ."
+
+  height 100vh
+
+  .login-form-container
+    grid-area login-form-container
+    justify-content center
+    text-align center
+
+  +e('input-block')
+    display flex
+    flex-direction column
+    align-items center
+
+    margin-top 32px
+
+    +e('input')
+      max-width 253px
+      display flex
+      flex-direction column
+      justify-self center
+      margin-bottom 12px
+
+      .input__textbox
+        min-width 253px
+
+      .input__error-label
+        align-self center
+
+  +e('footer')
+    margin-top 20px
+
+    +e('sign-up')
+      display block
+      margin-top 24px

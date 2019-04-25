@@ -1,0 +1,14 @@
++b('spinner')
+  display inline
+
+  +e('icon')
+    width 16px
+    height 18px
+    animation spin 2s linear infinite
+
+    position relative
+    stroke currentColor
+
+@keyframes spin
+  100%
+    transform: rotate(360deg)

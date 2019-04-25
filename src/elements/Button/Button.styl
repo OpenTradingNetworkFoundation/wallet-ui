@@ -1,0 +1,67 @@
++b('button')
+  position relative
+
+  color $white
+  min-width 112px
+  min-height 40px
+  border-radius 6px
+  border none
+
+  font-weight $font-bold
+  font-size 16px
+
+  padding 8px 28px
+
+  text-transform uppercase
+  transition background-color .3s ease, opacity .16s ease
+  cursor pointer
+
+  +e('label')
+    +m('is-loading')
+      opacity 0
+
+  +e('spinner')
+    position absolute
+    left 0
+    right 0
+
+  &:active, &:focus
+    outline none
+
+  +m('default')
+    background-color $comet-dark
+
+    &:hover
+      background-color $comet
+    &:disabled
+      background-color $comet-dark
+
+  +m('dark')
+    background-color $comet-dark
+
+    &:hover
+      background-color $comet
+    &:disabled
+      background-color $comet-dark
+
+  +m('light')
+    background-color $button-light
+    color $denim-light
+
+    &:hover
+      background-color $button-light-hover
+    &:disabled
+      background-color $button-light
+
+  +m('white')
+    background-color $white
+    color #868994
+    border 1px solid #f2f2f3
+
+    &:hover
+      color $gray-bright
+      border 1px solid #d9d9db
+
+  +m('disabled')
+    cursor not-allowed
+    opacity 0.5

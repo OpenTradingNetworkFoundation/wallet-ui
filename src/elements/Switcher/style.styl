@@ -1,0 +1,63 @@
++b('switcher')
+  position relative
+  border 1px solid #e4edf9
+  border-radius 6px
+  display block
+
+  height 36px
+  width 178px
+
+  padding 2px
+  cursor pointer
+
+  +m('dark')
+    border-color #303652
+
+  +e('input')
+    z-index -1000
+    position absolute
+    top 0
+    left 0
+
+  +e('button')
+    width 50%
+    position absolute
+    top 0
+    height 36px
+    line-height 36px
+    text-align center
+
+    z-index 10
+    pointer-events none
+
+    color #318af0
+    font-size 14px
+    font-weight $font-medium
+
+    opacity 0.5
+    &:hover
+      opacity 1
+
+    +m('active')
+      opacity 1
+
+    +m('right')
+      left 50%
+      font-weight $font-bold
+
+  +e('selector')
+    width 50%
+    border-radius 5px
+    background-color rgba(48, 138, 240, 0.1)
+
+    position absolute
+    height 32px
+    top 1px
+
+    transition .4s
+
+    +m('dark')
+      background-color #303652
+
+    +m('right')
+      transform translateX(calc(100% - 4px))

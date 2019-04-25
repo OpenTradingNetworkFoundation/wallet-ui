@@ -1,0 +1,53 @@
++b('main-page')
+  position relative
+  animation appearWithDelay 0.35s linear
+  display flex
+  flex-direction row
+  
+  height 100vh
+
+  +e('sidebar')
+    grid-area menu
+    width 250px
+    background-color $background-dark
+
+    position absolute
+    z-index 2
+    height 100vh
+
+    transition width 0.3s ease-in
+
+    +m('small')
+      width 70px
+
+  +e('display-area')
+    max-height 100vh
+    overflow auto
+    margin-left 250px
+
+    background-color: $background-white
+    padding 42px 30px 0px
+    display flex
+    flex 1
+    justify-content center
+    align-items flex-start
+
+    transition background-color .4s, margin-left .4s
+
+    +m('pro')
+      background-color #22263a
+
+    +m('small')
+      margin-left 70px
+
+    +e('content')
+      flex-basis 770px
+      transition flex-basis .3s ease-in-out
+      margin 0 auto
+      width 100%
+      position relative
+
+      +m('pro')
+        flex-basis 100%
+
+

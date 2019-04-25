@@ -1,0 +1,60 @@
++b('sign-up-result')
+  display grid
+  grid-template-columns repeat(3, 1fr)
+  grid-template-rows repeat(3, 1fr)
+  grid-template-areas ". logo ." ". container ." ". . ."
+
+  height 100vh
+
+  +e('logo')
+    grid-area logo
+    justify-self center
+    align-self end
+
+  +e('container')
+    grid-area container
+    justify-self center
+    text-align center
+
+    +e('label')
+      margin-top 49px
+      color $gray-heavy
+      display flex
+      justify-content center
+      font-family $font-sf
+      font-size $font-size-middle
+      font-weight $font-medium
+      line-height 20px
+
+      +e('lock-icon')
+        fill $gray-middle
+        width 16px
+        height 20px
+        margin-right 10px
+
+    +e('confirm-button')
+      color $white
+      margin-top 24px
+
+    +e('warning')
+      margin-top 48px
+
+    +e('password')
+      color $white
+      margin-top 16px
+      line-height 24px
+      font-weight $font-bold
+      font-family $font-sf
+      font-size 14px
+
+      display block
+
+    +e('copy')
+      display inline-block
+      line-height 20px
+      margin-top 4px
+
+      +e('copy-icon')
+        width 12px
+        height 12px
+        margin-right 7px

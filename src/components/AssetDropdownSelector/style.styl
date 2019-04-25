@@ -1,0 +1,83 @@
++b('asset-dropdown-selector')
+  cursor pointer
+
+  .Select-control
+    max-height 20px
+
+  .Select-menu-outer
+    box-shadow 0 2px 10px rgba(38, 42, 78, 0.1)
+    border-radius 6px
+    background-color $white
+
+    position absolute
+    z-index 10
+    top calc(100% + 6px)
+    right 0
+
+  +e('selected-item')
+    text-align end
+    color $denim-light
+    display flex
+    flex-direction row
+
+    opacity 0.9
+    font-size 12px
+    font-weight $font-bold
+    letter-spacing -0.09px
+
+    +m('large')
+      color $modal-header
+      font-size 20px
+
+    +e('label')
+      text-transform uppercase
+      margin-left auto
+
+      +m('align-start')
+        margin-left 0
+
+    +e('arrow-down')
+      width 8px
+      height 6px
+      margin-left 6px
+      align-self center
+      fill currentColor
+
+  +e('item')
+    padding 0 8px
+    border-radius 6px
+
+    height 40px
+    line-height 40px
+
+    display flex
+    flex-direction row
+
+    &:hover
+      background-color rgba(48, 138, 240, 0.1)
+
+    +e('amount')
+      font-size 10px
+      font-weight $font-medium
+      margin-left 4px
+
+      color rgba(23, 30, 50, 0.5)
+
+      +m('selected')
+        color #171e32
+
+    +e('name')
+      font-size 14px
+      font-weight $font-bold
+      margin-left 8px
+      text-transform uppercase
+      color rgba(23, 30, 50, 0.5)
+
+      +m('selected')
+        color #171e32
+
+    +e('icon')
+      width 16px
+      height 16px
+
+      align-self center

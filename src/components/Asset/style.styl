@@ -1,0 +1,112 @@
++b('asset')
+  width 100%
+  background-color $white
+  box-shadow 0 2px 10px $modal-background-shadow
+  border-radius 8px
+  padding 24px 15px 24px 24px
+
+  display grid
+  grid-template-columns 1fr
+
+  .row
+    margin-bottom 20px
+    display flex
+
+    & + .row
+      margin-bottom 0
+      justify-content space-between
+
+  +e('coin-icon')
+    width 46px
+    height 46px
+    margin-right 12px
+
+  +e('info')
+    display flex
+    flex-direction column
+
+    +e('name')
+      color rgba(23, 30, 50, 0.5)
+      opacity 0.9
+      font-weight $font-medium
+      font-size 14px
+      letter-spacing -0.11px
+      margin-top 2px
+
+    +e('balance')
+      text-transform uppercase
+      font-size 22px
+      font-weight $font-x-medium
+      color $gray-bright
+
+  +e('buttons')
+    +e('button')
+      margin-right 9px
+
+      +m('receive')
+        margin-right auto
+
+  +e('tooltip')
+    margin-bottom 10px
+    max-width 280px
+
+    +m('disabled')
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 16px;
+      color: rgba(#171e32, 0.5);
+
+  +e('tooltip-container')
+    margin-left 4px
+
+  +e('icons')
+    padding-right 1px
+    display flex
+  
+    +e('icon-button')
+      align-items center
+      width 36px
+      height 40px
+
+      border 0
+      border-radius 6px
+      transition background-color .24s ease
+      background none
+
+      &:focus
+        outline none
+      
+      +m('disabled')
+        opacity 0.5
+        background none
+
+        &.asset__icon
+          &:hover
+            border-color transparent
+            cursor not-allowed
+
+      &:hover
+        cursor pointer
+        background-color #eaf3fd
+        
+      &:active
+        outline none 
+        
+      +m('transaction')
+        padding 10px 8px
+        display none
+
+      +m('exchange')
+        padding 11px 10px
+        +e('icon')
+          width 15px
+          height 16px
+
+      +m('detokenize')
+        padding 11px 10px
+
+        +e('icon')
+          fill currentColor
+          color $input-border-color
+          width 14px
+          height 16px

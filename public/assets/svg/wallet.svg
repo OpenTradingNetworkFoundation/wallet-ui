@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="30px" viewBox="0 0 28 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="18.2-History-tab-(hover)" transform="translate(-252.000000, -193.000000)">
+            <g id="Group" transform="translate(226.000000, 82.000000)">
+                <g id="Window">
+                    <g id="Group-3" transform="translate(0.000000, 94.000000)">
+                        <g id="Group-5" transform="translate(40.000000, 31.000000) rotate(90.000000) translate(-40.000000, -31.000000) translate(26.000000, 17.000000)">
+                            <rect id="Rectangle-8" stroke="#FFFFFF" stroke-width="2" fill="#FFFFFF" x="7.61538462" y="1.15384615" width="21.3846154" height="25.6923077" rx="2"></rect>
+                            <path d="M4,-1.12709841e-11 L6.14624197,-1.12709841e-11 C4.92054219,0.743502311 4.30769231,1.82011629 4.30769231,3.22984195 C4.30769231,10.4069452 4.30769231,17.5840485 4.30769231,24.7611518 C4.30769231,26.1874992 4.92054219,27.2671153 6.14624197,28 L4,28 C1.790861,28 -2.13356839e-10,26.209139 -2.1335711e-10,24 L-2.1335711e-10,4 C-2.1335738e-10,1.790861 1.790861,-1.12705783e-11 4,-1.12709841e-11 Z" id="Rectangle-13" fill="#FFFFFF"></path>
+                            <circle id="Oval-8" fill="#2A3044" cx="18.3076923" cy="6.46153846" r="2.15384615"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

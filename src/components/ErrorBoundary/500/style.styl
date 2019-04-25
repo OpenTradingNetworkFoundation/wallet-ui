@@ -1,0 +1,86 @@
++b('error-500')
+  position relative
+  max-width 470px
+  min-width 470px
+  height 380px
+  text-align center
+  margin 95px auto
+
+  +e('content')
+    position relative
+    padding-top 125px
+    z-index 1
+
+    +e('status')
+      font-size 60px
+      line-height 70px
+      color #313747
+      margin 25px 0 0
+      animation appear 0.3s linear
+
+    +e('header')
+      font-size 20px
+      line-height 24px
+      font-weight 700
+      max-width 240px
+      margin 0 auto
+      color rgba(#313747, 0.5)
+      margin-bottom 10px
+      animation appear 0.3s linear
+      animation-timing-function cubic-bezier(0.25, 1, 0.25, 1)
+    
+    +e('description')
+      color rgba(#313747, 0.5)
+      font-weight 500
+      margin 0
+      max-width 165px
+      margin 0 auto
+      animation appear 0.3s linear
+      animation-timing-function cubic-bezier(0.25, 1, 0.25, 1)
+      
+    +e('spinner')
+      position relative 
+      animation fullZoom 0.3s 1
+      animation-timing-function cubic-bezier(0, 1, 0.25, 1)
+      
+    +e('spinner-content')
+      width 44px
+      height 44px
+
+    +e('spinner-border')
+      position absolute
+      top 50%
+      left 50%
+      margin-left -37px
+      margin-top -37px
+      width 74px 
+      height 74px
+      border solid 3px #313747
+      border-radius 100%
+      animation rotate 4s 0.4s infinite
+      animation-timing-function cubic-bezier(0, 0, 1, 1)
+
+      svg 
+        width 18px
+        height 18px
+        position absolute
+        top -9px
+        left 50%
+        margin-left -9px
+
+        background-color white
+        border-radius 100%
+
+  +e('background')
+    position absolute
+    top 0
+    bottom 0
+    left 0
+    right 0
+    animation zoomIn 0.7s 1
+
+    svg 
+      width 100%
+      height 100%
+    
+    

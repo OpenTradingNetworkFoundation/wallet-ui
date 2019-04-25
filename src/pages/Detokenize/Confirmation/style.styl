@@ -1,0 +1,36 @@
++b('detokenize-confirmation')
+  display flex
+  flex-direction column
+
+  +e('row')
+    display flex
+    flex-direction row
+    justify-content space-between
+    margin-bottom 20px
+
+    +e('confirm-header')
+      confirm-header()
+      display block
+
+    +e('confirm-value')
+      confirm-value()
+
+    +e('asset-display-name')
+      font-size 18px;
+      font-weight 700;
+      text-transform uppercase;
+      margin-bottom 6px;
+      
+    +e('asset-full-name')
+      display flex
+
+      +e('text')
+        font-size 14px
+        opacity 0.5
+        font-weight $font-medium
+
+      +e('icon')
+        width 18px
+        height 18px
+        margin-right 8px
+

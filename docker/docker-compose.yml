@@ -1,0 +1,18 @@
+version: "2"
+
+services:
+  otn-ui:
+    build:
+      context: ../
+      dockerfile: docker/Dockerfile
+      
+    restart: "no"
+    command: "sh docker/entrypoint.sh"
+    ports:
+      - "3000:80"
+    volumes:
+      - ../:/app
+      - /app/node_modules
+      - ./nginx/local-nginx-ui.conf:/etc/nginx/conf.d/ui.conf
+    stdin_open: true
+    tty: true

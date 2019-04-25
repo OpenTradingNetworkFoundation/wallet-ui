@@ -1,0 +1,33 @@
++b('warning')
+  background-color $yellow
+  border-radius 6px
+
+  padding 12px
+
+  display grid
+  grid-template-columns 18px 1fr
+  align-items self-start
+
+  +e('text')
+    color $gray-bright
+    font-size $font-size-small
+    font-family $font-sf
+    font-weight 500
+    line-height 18px
+    text-align left
+    padding-left 12px
+    align-self center
+
+  +e('icon')
+    width 20px
+    height 20px
+
+  +e('row')
+    margin 0
+    line-height 18px
+
+    & + &
+      margin 10px 0 0
+      padding-top 10px
+      border-top solid 1px rgba(#313747, 0.1);
+  

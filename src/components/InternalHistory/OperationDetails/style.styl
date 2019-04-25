@@ -1,0 +1,59 @@
++b('internal-operation-details')
+  border-top solid 1px #d1deec
+  padding-top 15px
+  padding-bottom 24px
+
+  display grid
+  grid-template-columns 1fr 1fr 178px
+
+  +e('copy-icon')
+    margin-left 4px
+
+  +e('question-icon')
+    width 12px
+    height 12px
+    margin-left 4px
+
+  +e('tooltip-content')
+    margin-left 4px
+    font-size 12px
+    line-height 16px
+    font-weight $font-medium
+    max-width 284px
+
+  +e('status-header')
+    display flex
+
+  +e('fee')
+    font-size 12px
+
+  +e('confirmations')
+    color #32ab51
+
+    display flex
+    flex-wrap wrap
+    max-width 95px
+
+    +m('confirmed')
+      color #32ab51
+
+    +m('pending')
+      color #318af0
+
+    +e('line')
+      height 4px
+      border-radius 4px
+      margin-bottom 8px
+
+      +m('confirmed')
+        background-color #32ab51
+
+      +m('pending')
+        background-color #318af0
+
+    +e('confirmation-status')
+      display inline-block
+      font-weight $font-medium
+      font-size 14px
+
+      padding-bottom 4px

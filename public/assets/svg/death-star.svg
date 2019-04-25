@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="78px" height="78px" viewBox="0 0 78 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Oval 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Oval-2" transform="translate(-14.000000, -14.000000)" stroke="#313747">
+            <g id="Mask" stroke-linejoin="round" transform="translate(53.283863, 53.002919) rotate(-137.000000) translate(-53.283863, -53.002919) translate(15.783863, 15.502919)" fill="#F9F9FB" fill-rule="nonzero" stroke-width="3">
+                <path d="M37.2940331,74.294029 C57.7285688,74.294029 74.2940331,57.7285647 74.2940331,37.294029 C74.2940331,16.8594932 57.7285688,0.294029 37.2940331,0.294029 C16.8594974,0.294029 0.2940331,16.8594932 0.2940331,37.294029 C0.2855913,37.375379 7.0708517,31.0480212 20.6498146,18.3119557 L23.6588164,24.8488431 L2.4443148,44.6316859 L4.9802653,50.7119967 L17.5504491,38.9901106 L20.4833263,43.652483 L9.966603,53.4594861 L9.3118719,60.6152244 L34.8253683,36.8235041 L37.2203231,43.0568681 L15.7098227,63.1157342 L18.4860139,69.15695 L31.0940114,57.3998021 L33.8003566,62.0070217 L23.5711178,71.5459412 L30.2631951,73.6223183 L38.7990801,65.6624767 L44.3425796,67.7211531 C39.7182607,72.0688278 37.3687452,74.2597865 37.2940331,74.294029 Z" id="path-2"></path>
+            </g>
+            <g id="Group-11-Clipped" transform="translate(17.000000, 32.000000)">
+                <g id="Group-11" transform="translate(-0.000000, -0.000000)">
+                    <g id="Group">
+                        <path d="M0.242867731,23.3980359 L72.6141317,23.3980359" id="Line" stroke-width="3" stroke-linecap="round"></path>
+                        <path d="M27,10 L15,6" id="Line" stroke-width="2" stroke-linecap="square"></path>
+                        <path d="M21.3714253,13.2481443 L20.4602202,1.19213769" id="Line" stroke-width="2" stroke-linecap="square"></path>
+                        <path d="M17,10.9382009 L25.1844344,3" id="Line" stroke-width="2" stroke-linecap="square"></path>
+                        <circle id="Oval-5" stroke-width="2" cx="21.5" cy="7.5" r="7.5"></circle>
+                        <circle id="Oval-5" stroke-width="2" fill="#FFFFFF" cx="20.5" cy="7.5" r="2.5"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

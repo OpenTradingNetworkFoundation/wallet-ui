@@ -1,0 +1,14 @@
+.idea
+.vscode/
+build/
+node_modules/
+dist/
+.DS_Store
+
+public/config/config.json
+docker/nginx/local-nginx-ui.conf
+coverage/
+storybook-dist/
+jsconfig.json
+.vault_pass
+.vault_pass.txt

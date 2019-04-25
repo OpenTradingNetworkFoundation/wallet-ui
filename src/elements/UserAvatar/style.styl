@@ -1,0 +1,54 @@
++b('user-avatar')
+  padding-left 20px
+  display flex
+  align-items center
+  max-height 31px
+
+  +e('username')
+    color $white
+    white-space nowrap
+    letter-spacing -0.4px
+    font-size 18px
+    font-weight $font-medium
+
+    overflow hidden
+    text-overflow ellipsis
+
+    padding-left 18px
+    animation appearWithDelay 0.35s linear
+
+  +e('text')
+    +m('tooptip')
+      padding 0
+
+  +e('tooltip-content')
+    margin-left 18px
+
+    color $white
+    white-space nowrap
+    letter-spacing -0.4px
+    font-size 18px
+    font-weight $font-medium
+
+  +e('icon')
+    width 31px
+    height 31px
+    min-width 31px
+    min-height 31px
+
+    border 2px solid #40455b
+    border-radius 50%
+
+  +e('logout-url')
+    margin-left auto
+    padding 8px 6px 8px 10px
+    border-radius 4px
+    transition ease-out 300ms;
+    animation appearWithDelay 0.35s linear
+
+    &:hover
+      background-color $background-icon
+
+    +e('logout-icon')
+      width 18px
+      height 18px

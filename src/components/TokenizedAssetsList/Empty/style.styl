@@ -1,0 +1,44 @@
++b('tokenized-assets-list-empty')
+  display flex
+  justify-content center
+  align-items center
+  min-height 212px
+  padding 44px
+  border-radius 8px
+  border 1px dashed #e8e8e8
+
+  +e('content')
+    max-width 200px
+    font-size 18px
+    font-weight $font-medium
+    color $gray-bright
+    letter-spacing -0.1px
+    text-align center
+
+  +e('text')
+    font-size 14px
+    font-weight $font-medium
+    color #979aa3
+    margin-bottom 10px
+
+  +e('picture')
+    display flex
+    justify-content center
+    align-items center
+    margin-bottom 20px
+
+  +e('coin')
+    position relative
+    width 46px
+    height 46px
+    border-radius 50%
+    fill #a7aab3
+    +m('tokenized')
+      fill #979aa3
+      .tokenized-icon__otn-icon
+        color #979aa3
+
+  +e('arrow')
+    width 24px
+    height 8px
+    margin 0 8px

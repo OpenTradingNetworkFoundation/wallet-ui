@@ -1,0 +1,534 @@
+{
+  "errors": {
+    "exchange": {
+      "generic": {
+        "title": "error",
+        "message": "Exchange error occured, please try again later"
+      },
+      "fillOrKill": {
+        "title": "error",
+        "message": "We cannot make an exchange on the specified terms. Please try later again."
+      }
+    },
+    "balance": {
+      "title": "error",
+      "message": "Balance error occured, please try again later"
+    },
+    "gateway": {
+      "title": "Gateway is unavailable",
+      "message": "Gateway became temporarily unavailable, please try again later."
+    },
+    "generic": {
+      "title": "Unexpected error",
+      "message": "We are sorry about that"
+    },
+    "sign-up-2": {
+      "message":
+        "You have reached maximum request limit. Please try again later."
+    },
+    "sign-up-3": {
+      "message": "Account name \"<%= name %>\" is invalid."
+    },
+    "sign-up-4": {
+      "message": "Account name \"<%= name %>\" is invalid."
+    },
+    "sign-up-5": {
+      "message": "Internal error."
+    },
+    "sign-up-6": {
+      "message": "Internal server error."
+    },
+    "unknown_error": {
+      "message": "An unexpected error occured. Please, try later again."
+    }
+  },
+  "sidebar": {
+    "wallet": {
+      "title": "Wallet",
+      "description": "Store and exchange your assets"
+    },
+    "exchange": {
+      "title": "Exchange",
+      "description": "Fast and reliable exchange of assets"
+    },
+    "history": {
+      "title": "History",
+      "description": "All operation for all assets"
+    },
+    "vesting": {
+      "title": "Vesting balance",
+      "description": "All vesting balances for your account"
+    }
+  },
+  "coins": {
+    "OTN": {
+      "name": "Open Trading Network"
+    },
+    "OTN.BTC": {
+      "name": "Tokenized Bitcoin"
+    },
+    "OTN.ETH": {
+      "name": "Tokenized Ethereum"
+    },
+    "OTN.BCH": {
+      "name": "Tokenized Bitcoin Cash"
+    },
+    "OTN.BTG": {
+      "name": "Tokenized Bitcoin Gold"
+    },
+    "OTN.EOS": {
+      "name": "Tokenized EOS"
+    },
+    "OTN.ETC": {
+      "name": "Tokenized Ethereum Classic"
+    },
+    "OTN.LTC": {
+      "name": "Tokenized Litecoin"
+    },
+    "OTN.OMG": {
+      "name": "Tokenized OmiseGo"
+    },
+    "OTN.TRX": {
+      "name": "Tokenized TRON"
+    },
+    "OTN.XRP": {
+      "name": "Tokenized Ripple"
+    },
+    "OTN.ZEC": {
+      "name": "Tokenized Zcash"
+    },
+    "BTC": {
+      "name": "Bitcoin"
+    },
+    "ETH": {
+      "name": "Ethereum"
+    },
+    "BCH": {
+      "name": "Bitcoin Cash"
+    },
+    "BTG": {
+      "name": "Bitcoin Gold"
+    },
+    "EOS": {
+      "name": "EOS"
+    },
+    "ETC": {
+      "name": "Ethereum Classic"
+    },
+    "LTC": {
+      "name": "Litecoin"
+    },
+    "OMG": {
+      "name": "OmiseGo"
+    },
+    "TRX": {
+      "name": "TRON"
+    },
+    "XRP": {
+      "name": "Ripple"
+    },
+    "ZEC": {
+      "name": "Zcash"
+    }
+  },
+  "page": {
+    "wallet": {
+      "walletLabel": "Wallet",
+      "otnTokenizationUrl": "Convert otnt to otn",
+      "tokenizedAssetsLabel": "Tokenized assets",
+      "tokenizedAssetsEmpty":
+        "Click \"Tokenize\" to get your first asset tokenized",
+      "tokenize": "Tokenize",
+      "receive": "Receive",
+      "send": "Send"
+    },
+    "enterPassword": {
+      "title": "Enter password",
+      "text":
+        "For further action, please enter your password. This is for confirm"
+    },
+    "send": {
+      "memo": "Message",
+      "optional": "(Optional)",
+      "memoPlaceholder": "Enter a message",
+      "tooltip": {
+        "info": "Use this field to add any additional information to the operation. Operation fee depends on the message length.",
+        "warning": "Please notice that message won't be added to the operation if the recipient does not have a valid memo key."
+      },
+      "label": "Send assets",
+      "assets": "Assets",
+      "amount": "Amount",
+      "maxAmount": "Max amount to send: <%= amount %> <%= asset %>",
+      "confirmButtonLabel": "Send",
+      "error": {
+        "user_not_exist": "This account does not exist"
+      },
+      "empty": {
+        "title": "No assets to be sent",
+        "description":
+          "To send an asset, you need to have at least one asset available in your wallet. Go to the 'Wallet' section and deposit or tokenize any asset."
+      },
+      "confirmation": {
+        "memo": "Message",
+        "from": "From",
+        "to": "To",
+        "amount": "Amount",
+        "fee": "Fee",
+        "asset": "Asset"
+      }
+    },
+
+    "receive": {
+      "label": "Receive",
+      "title": "Login for receiving currency",
+      "description": "In order to receive <%= asset %>, please enter your login as specified above into the recipient's line. The QR code on the right also contains the login to your account."
+    },
+
+    "exchange": {
+      "label": "Exchange",
+      "buttonLabel": "Exchange",
+      "available": "Available <%= amount %> <%= asset %>",
+      "empty": {
+        "title": "No assets to be exchanged",
+        "description":
+          "To make an exchange, you need to have at least one asset available in your wallet. Go to the 'Wallet' section and deposit or tokenize any asset."
+      },
+      "warning": "You will receive at least this amount."
+    },
+    "exchangeEntrypoint": {
+      "pro": "Pro"
+    },
+    "exchangePro": {
+      "market": "Market",
+      "price": "Price",
+      "chart": "Chart",
+      "24hChange": "24h Change",
+      "24hVolume": "24h Volume",
+      "openPositions": "Open Positions",
+      "settings": "Settings",
+      "noOpenPositions": "You have no open positions yet",
+      "searchByAsset": "Search by asset...",
+      "noMatch": "No markets found matching your search criteria",
+      "orderBook": "Order book",
+      "tradingHistory": "Trading history",
+      "headers": {
+        "total": "Total",
+        "price": "Price",
+        "amount": "Amount",
+        "selling": "Selling",
+        "buying": "Buying",
+        "date": "Date"
+      },
+      "empty": {
+        "askOrders": "There are no sell orders",
+        "bidOrders": "There are no buy orders",
+        "tradingHistory": "There is no trading history"
+      },
+      "limitOrder": {
+        "label": "Limit order",
+        "sell": "Sell",
+        "buy": "Buy",
+        "priceLabel": "Price",
+        "amountLabel": "Amount",
+        "totalLabel": "Total",
+        "fee": "Fee"
+      },
+      "menu": {
+        "openOrders": "Open Orders"
+      }
+    },
+    "tokenize": {
+      "label": "Tokenize",
+      "coinLabel": "Select coin",
+      "addressLabel": "Please send your <%= assetName %> to the address below",
+      "testnetWarning": "Please, don’t send your real tokens to this address. Testnet only.",
+      "warning": "Please check the external transaction carefully. OTN is not responsible for transactions in the external networks.",
+      "minAmountWarning": "Minimum value to tokenize is <%= minValue %> <%= assetName %>."
+    },
+    "detokenize": {
+      "assets": "Assets",
+      "label": "Detokenize",
+      "feeLabel": "You will pay an additional gateway fee",
+      "maxAmount": "Max amount to detokenize: <%= amount %> <%= asset %>",
+      "empty": {
+        "title": "No assets to be detokenized",
+        "description":
+          "To make an detokenization, you need to have at least one asset available in your wallet. Go to the 'Wallet' section and deposit or tokenize any asset."
+      },
+      "addressLabel": "Withdraw to address",
+      "placeholder": "Enter Address",
+      "validation": {
+        "address": {
+          "empty": "Address is required",
+          "invalid": "Address is not valid"
+        },
+        "amount": {
+          "minValue": "The minimal amount to detokenize is \"<%= minValue %>\", because it should include gateway fee"
+        }
+      },
+      "testnetWarning": "Please, withdraw your tokens to testnet addresses only.",
+      "confirm": {
+        "addressHeader": "Detokenize address",
+        "buttonText": "Detokenize"
+      },
+      "disabledTitle": "Detokenization for this asset is not supported or temporarily disabled.",
+      "disabledDescription": "Please check back later or convert your funds to a supported asset",
+      "disabledAction": "OK"
+    },
+    "signUp": {
+      "signUpLabel": "SIGN UP",
+      "loginLabel": "LOGIN",
+      "passwordLabel": "The password will be generated automatically",
+      "loginPlaceholder": "Login (e.g. <%= example %>)",
+      "placeholderNames": [
+        "ethan-hunt",
+        "star-lord",
+        "harry-potter",
+        "sarah-connor",
+        "t-800",
+        "doc-brown",
+        "darth-vader",
+        "han-solo",
+        "james-bond",
+        "max-payne",
+        "tony-stark",
+        "peter-parker",
+        "dr-house",
+        "billy-batson",
+        "bruce-wayne",
+        "john-watson",
+        "peter-griffin",
+        "irene-adler",
+        "clark-kent"
+      ],
+      "rulesTitle": "Account name must match the following rules:",
+      "result": {
+        "copyLabel": "Copy",
+        "buttonLabel": "I understand",
+        "passwordLabel": "Your password:",
+        "passwordWarning": "Attention! Keep your password in a safe place. If you lose your password, you will not be able to restore access to your account."
+      }
+    },
+    "history": {
+      "label": "History",
+      "empty": {
+        "title": "No transaction history",
+        "description": "To see your operations here, you need to have made at least one transaction. Go to the 'Wallet' section and detokenize or tokenize any asset."
+      },
+      "displayMode": {
+        "external": "External",
+        "internal": "Internal"
+      }
+    },
+
+    "vestingBalance": {
+      "label": "Vesting balance",
+      "amount": "Amount",
+      "beginDate": "Begin date",
+      "vestingCliff": "Vesting cliff",
+      "vestingPeriod": "Vesting period",
+      "availableToWithdraw": "Available to withdraw",
+      "withdraw": "Withdraw",
+      "coinSecondsEarned": "Coin seconds earned",
+      "coinSecondsRequired": "Coin seconds required",
+      "days": "days"
+    }
+  },
+  "component": {
+    "Sidebar": {
+      "feedback": "Feedback"
+    },
+    "FeePanel": {
+      "label": "Pay"
+    },
+    "FeePercentage": {
+      "fee": "Fee"
+    },
+    "Empty": {
+      "goToWallet": "Go to wallet"
+    },
+    "History": {
+      "external": { 
+        "label": "External transaction history", 
+        "error": {
+          "title": "History page won't load",
+          "status": "Error",
+          "description": "External history page is not available"
+        }
+      },
+      "internal": "Transaction history",
+      "placeholder": "No transaction history"
+    },
+    "Operation": {
+      "receiving": "Receiving",
+      "sending": "Sending",
+      "received": "Received",
+      "sent": "Sent",
+      "tokenize": "Tokenize",
+      "exchange": "Exchange",
+      "detokenize": "Detokenize",
+      "failed": {
+        "default": "Failed",
+        "tokenize": "Tokenization failed",
+        "detokenize": "Detokenization failed",
+        "send": "Sending failed",
+        "receive": "Receiving failed",
+        "exchange": "Exchange failed"
+      },
+      "unknown": "Unknown",
+      "vestingBalanceWithdraw": "Withdraw vesting balance",
+      "pending": "Pending",
+      "confirmed": "Confirmed",
+      "confirmations": "Confirmations",
+      "sentTo": "Sent to",
+      "receiveFrom": "Receive from",
+      "internalTransactionId": "Internal Transaction ID",
+      "externalTransactionId": "External Transaction ID",
+      "fee": "Fee",
+      "externalFee": "External Fee",
+      "confirmedInBlock": "Confirmed in block",
+      "externalAddress": "External Address",
+      "operationId": "Operation ID",
+      "give": "Give",
+      "get": "Get",
+      "status": {
+        "label": "Status",
+        "internal": {
+          "confirmed": {
+            "label": "Confirmed",
+            "description": "Confirmed means that this block was confirmed by the required majority of witnesses and operations it contains cannot be reverted."
+          },
+          "pending": {
+            "label": "Success",
+            "description": "Success means that this block was not yet confirmed by the required majority of witnesses and operations it contains can still be reverted. However the probability of the block getting reverted is extremely low."
+          },
+          "failed": {
+            "label": "Failed"
+          },
+          "unknown": {
+            "label": "Unknown"
+          }
+        },
+        "external": {
+          "confirmed": {
+            "label": "Confirmed"
+          },
+          "pending": {
+            "label": "Pending"
+          },
+          "failed": {
+            "label": "Failed"
+          },
+          "unknown": {
+            "label": "Unknown"
+          }
+        }
+      }
+    },
+    "ConfirmationBox": {
+      "backLabel": "back"
+    },
+    "ErrorBoundary": {
+      "500": {
+        "status": "500",
+        "title": "This page won't load",
+        "description": "Sorry about that. Please try refreshing"
+      },
+      "Gateway": {
+        "status": "Oops",
+        "description": "The operation is suspended due to temporary unavailability of the gateway. We’re currently trying to fix this.",
+        "buttonLabel": "OK"
+      },
+      "Node": {
+        "status": "O-OH",
+        "title": "There is a connectivity issue",
+        "description": "We'll be back as soon as possible."
+      }
+    },
+    "Asset": {
+      "tooltip": {
+        "exchange": "Exchange",
+        "detokenize": "Detokenize",
+        "notSupported": "Detokenization for this asset is not supported or temporarily disabled. Please check back later or convert your funds to a supported asset"
+      }
+    },
+    "OpenOrder": {
+      "price": "Price",
+      "expiration": {
+        "title": "Expiration",
+        "after": "After <%= daysLeft %> days",
+        "today": "Today"
+      },
+      "direction": {
+        "title": "Direction",
+        "buy": "Buy",
+        "sell": "Sell"
+      },
+      "amount": "Amount",
+      "total": "Total",
+      "confirm": "confirm",
+      "closeLabel": "Close position?"
+    }
+  },
+  "elements": {
+    "Price": {
+      "label": "Price",
+      "unavailable": "Price Temporarily Unavailable"
+    },
+    "Switcher": {
+      "light": "Light",
+      "pro": "Pro"
+    }
+  },
+  "common": {
+    "empty": "",
+    "confirm": "Confirm",
+    "copy": "Copy",
+    "placeholder": {
+      "username": "User name",
+      "amount": "Enter Amount"
+    },
+    "max": "Max",
+    "tokenizedAssetName": "<%= name %> Tokenized"
+  },
+  "validation": {
+    "number": "Should be a valid positive number",
+    "empty": "Should be filled",
+    "assetAmount": {
+      "required": "Amount is required",
+      "insufficient":
+        "You have insufficient funds. Add <%= delta %> or enter another amount",
+      "orderBookLimit": "The max amount is \"<%= limit %>\". Please reduce the amount by \"<%= delta %>\"."
+    },
+
+    "accountName": {
+      "required": "Account name should not be empty",
+      "length":
+        "Account name must contain from <%= minimum %> to <%= maximum %> symbols",
+      "invalid": {
+        "number": "Account name must start with a lowercase letter (a-z)",
+        "regexp":
+          "Account name must consist of lowercase letters (a-z). Presence of digit, hyphen (-) or full stop (.) is mandatory requirement.",
+        "hyphen": "Account name should not end with a hyphen (-)",
+        "dot": "Account name should not end with a full stop (.)"
+      }
+    },
+    "username": {
+      "required": "User name is required",
+      "ownAccount": "You can't send funds to yourself"
+    },
+    "placeOrder": {
+      "emptyPrice": "Price field should not be empty",
+      "priceLessThanZero": "Price should be a valid positive number",
+      "emptyAmount": "Amount field should not be empty",
+      "insufficient":
+        "You have insufficient funds. Add <%= delta %> <%= asset %> or enter another amount"
+    }
+  },
+  "operation": {
+    "exchange": "Exchange",
+    "youSent": "You sent",
+    "youReceived": "You received",
+    "youWithdrew": "You withdrew"
+  }
+}

@@ -1,0 +1,162 @@
++b('operation')
+  font-size 14px
+  font-weight 500
+  border-radius 6px
+
+  & + & 
+    margin-top 2px
+  +m('expanded')
+    background-color rgba(48, 138, 240, 0.1)
+
+    margin-bottom 5px
+    margin-top 5px
+
+    &:first-of-type
+      margin-top 0
+
+  &:hover 
+    background-color rgba(48, 138, 240, 0.1)
+
+  +e('header')
+    display flex
+    justify-content space-between
+    align-items center
+
+    cursor pointer
+
+    padding 10px 10px
+
+  +e('status')
+    display flex
+    align-items center
+    flex 1
+
+    +m('pending')
+      color #318af0
+    
+    +e('indicator-container')
+      width 20px
+      height 20px 
+      text-align center
+      line-height 20px
+      margin-right 12px
+      display flex
+      align-items center
+      justify-content center
+
+    +e('indicator')
+      +m('pending')
+        width 15px 
+        height 15px
+        animation spin 1s linear infinite
+        stroke #318af0
+        
+      +m('send')
+        width 15px
+        height 17px
+
+      +m('receive')
+        width 15px
+        height 16px
+        transform rotate(90deg)
+
+      +m('vestingBalanceWithdraw')
+        width 15px
+        height 16px
+        transform rotate(90deg)
+
+      +m('tokenize')
+        width 16px
+        height 16px
+
+      +m('exchange')
+        width 16px 
+        height 16px
+        stroke #171E32
+        fill #171E32
+
+      +m('detokenize')
+        width 14px
+        height 17px
+      
+      +m('failed')
+        width 16px
+        height 16px
+
+      +m('unknown')
+        width 16px
+        height 16px
+
+  +e('date-time') 
+    display flex 
+    flex-basis 140px
+    font-size 12px
+
+    flex-direction column
+    justify-content center
+    align-items flex-start
+
+    text-align left
+
+    +e('time')
+      margin-top 3px
+      color #171e32
+      opacity 0.5
+
+  +e('asset')
+    display flex
+    align-items center
+    flex-basis 140px
+
+    +e('asset-icon')
+      width 16px
+      height 16px
+
+    +e('asset-name')
+      margin-left 5px
+
+  +e('amount')
+    flex-basis 200px
+    text-align right
+
+    +m('receive')
+      color #32ab51
+
+    +m('tokenize')
+      color #32ab51
+
+    +m('vestingBalanceWithdraw')
+      color #32ab51
+
+    +m('exchange-in')
+      color #32ab51
+
+    +m('send')
+      color #e75a5a;
+
+    +m('exchange-out')
+      color #e75a5a;
+
+    +m('detokenize')
+      color #e75a5a;
+
+  +e('details') 
+    max-height 0
+    transition max-height 0.3s cubic-bezier(0,1,0,1)
+    overflow hidden
+
+    +m('expanded')
+      max-height 300px
+      padding 0 10px
+      transition max-height 0.3s ease-in-out
+
+  +e('confirmation')
+    +m('done')
+      color #32ab51
+
+    +m('pending')
+      color #318af0
+
+    +m('failed')
+      color #e75a5a
+  

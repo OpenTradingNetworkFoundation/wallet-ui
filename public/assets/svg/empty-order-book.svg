@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="41px" height="38px" viewBox="0 0 41 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>empty</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Empty-buy-orders" transform="translate(-542.000000, -444.000000)">
+            <g id="Group" transform="translate(91.000000, 61.000000)">
+                <g id="Group-2" transform="translate(406.000000, 383.000000)">
+                    <g id="empty" transform="translate(45.000000, 0.000000)">
+                        <g id="Group-12" transform="translate(0.000000, 7.000000)" fill-rule="nonzero" stroke="#FFFFFF" stroke-width="1.31">
+                            <path d="M0.655,21.6241586 L0.655,27.9941958 C0.655,29.2893035 1.70489226,30.3391958 3,30.3391958 L37,30.3391958 C38.2951077,30.3391958 39.345,29.2893035 39.345,27.9941958 L39.345,21.6241586 L33.7047671,3.02908012 C33.2770931,1.61909714 31.9771935,0.655 30.5037767,0.655 L9.49622329,0.655 C8.02280648,0.655 6.72290692,1.61909714 6.29523288,3.02908012 L0.655,21.6241586 Z" id="Rectangle"></path>
+                            <path d="M3,19.655 C1.70489226,19.655 0.655,20.7048923 0.655,22 L0.655,28 C0.655,29.2951077 1.70489226,30.345 3,30.345 L37,30.345 C38.2951077,30.345 39.345,29.2951077 39.345,28 L39.345,22 C39.345,20.7048923 38.2951077,19.655 37,19.655 L26.8648422,19.655 C26.1569168,19.655 25.5830298,20.228887 25.5830298,20.9368124 C25.5830298,22.3682309 24.4226358,23.5286249 22.9912173,23.5286249 L16.7154815,23.5286249 C15.284063,23.5286249 14.1236691,22.3682309 14.1236691,20.9368124 C14.1236691,20.228887 13.5497821,19.655 12.8418566,19.655 L3,19.655 Z" id="Rectangle-2"></path>
+                        </g>
+                        <circle id="Oval" fill="#2C324B" fill-rule="nonzero" cx="33" cy="8" r="8"></circle>
+                        <circle id="Oval" fill="#3F466A" fill-rule="nonzero" cx="33" cy="8" r="6"></circle>
+                        <text id="0" font-family="SFUIText-Medium, SF UI Text" font-size="9" font-weight="400" fill="#FFFFFF">
+                            <tspan x="30.1552734" y="11">0</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

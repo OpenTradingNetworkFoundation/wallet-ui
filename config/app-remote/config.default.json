@@ -1,0 +1,18 @@
+{
+  "nodes": [{
+    "url": "%NODE_URL%"
+  }],
+  "network": {
+    "core_asset": "OTN",
+    "address_prefix": "OTN",
+    "chain_id": "chain_id"
+  },
+  "api": {
+    "gateway": "%GATEWAY_URL%/api/v1",
+    "faucet": "%FAUCET_URL%/api/v1"
+  },
+  "app": {
+    "env": "%ENV%",
+    "feedbackUrl": "https://feedback-page-url.com"
+  }
+}

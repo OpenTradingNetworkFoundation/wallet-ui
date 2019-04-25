@@ -1,0 +1,47 @@
++b('asset-progress-icon')
+  position relative
+
+  +e('progress-icon')
+    width 100%
+    height 100%
+
+    animation spin 1s linear infinite
+    color #308af0
+
+  +e('content')
+    position absolute
+
+    width 30px
+    height 30px
+    border-radius 50%
+    background-color #308af0
+
+    color $white
+    font-size 12px
+    font-weight $font-bold
+
+    display flex
+    flex-direction column
+    text-align center
+    justify-content center
+    top 8px
+    left 8px
+
+  +e('operation-icon')
+    position absolute
+
+    +m('detokenize')
+      width 23px
+      height 19px
+
+      top 13px
+      left 12px
+
+    +m('tokenize')
+      width 28px
+      height 25px
+
+      top 11px
+      left 9px
+
+    color #308af0

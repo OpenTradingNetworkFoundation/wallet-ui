@@ -1,0 +1,23 @@
++b('asset-selector')
+  display flex
+
+  +e('asset-icon')
+    width 38px
+    height 38px
+
+    .tokenized-icon__main-icon
+      width 38px
+      height 38px
+
+  +e('asset-info')
+    margin-left 8px
+
+    +e('asset-dropdown')
+      width 130px
+
+    +e('asset-name')
+      opacity 0.5
+      color $modal-header
+      font-size 12px
+      font-weight $font-medium
+      margin-top 5px
